@@ -1,0 +1,45 @@
+#sketchBoard {
+    width: 960px;
+    height: 960px;
+    border: black solid 3px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;  
+}
+
+.colBoxes {
+    width: 960px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.rowBoxes {
+    flex: 1;
+    border: black solid 0.1px;
+    margin: 0;
+    padding: 0;
+}
+
+#buttonContainer {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+}
+
+.newSketchButton, .black, .random, .opacity {
+    width: 250px;
+    height: 60px;
+    background-color: orange;
+    border-radius: 15px;
+    border: yellow solid 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
